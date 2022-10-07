@@ -7,7 +7,7 @@
             int j = 1;
             int count = 0;
 
-            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\phili\Documents\Code\Exercises\AdventOfCode2021Day1\dataFile.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\phili\Documents\Code\Exercises\AdventOfCode\AdventOfCode2021Day1\dataFile.txt");
             int[] data = new int[lines.Length];
 
             int localCount = 0;

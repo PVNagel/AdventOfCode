@@ -9,7 +9,7 @@
             int x = 0;
             int aim = 0;
 
-            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\phili\Documents\Code\Exercises\AdventOfCode2021Day2\dataFile.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\phili\Documents\Code\Exercises\AdventOfCode\AdventOfCode2021Day2\dataFile.txt");
 
             char seperator = ' ';
 
@@ -46,9 +46,9 @@
                     aim = aim + value[i];
                 }
             }
-            Console.WriteLine("horizontal position: " + horizontal + " Depth: " + depth);
+            Console.WriteLine("WITH PART 2 IMPLEMENTED");
+            Console.WriteLine("Horizontal position: " + horizontal + " Depth: " + depth);
             Console.WriteLine("Position: " + (horizontal * depth));
-            Console.WriteLine("This Program includes part 2 of day 2.");
             Console.ReadLine();
         }
     }

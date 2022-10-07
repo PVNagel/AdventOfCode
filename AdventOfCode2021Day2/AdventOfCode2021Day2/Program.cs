@@ -9,7 +9,7 @@
             int x = 0;
             int aim = 0;
 
-            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\phili\Documents\Code\Exercises\AdventOfCode\AdventOfCode2021Day2\dataFile.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\phili\Documents\Code\Exercises\AdventOfCode\AdventOfCode2021Day3\dataFile.txt");
 
             char seperator = ' ';
 
